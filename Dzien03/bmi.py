@@ -29,12 +29,24 @@ print(f"Twoje BMI = {bmi:.2f}")
 >= 25 - ogranicz kebaby
 """
 
-if bmi>=25:
+# if bmi>=25:
+#     print("ogranicz kebaby")
+#     print("ogranicz monsterki")
+# elif bmi<18.5:
+#     print("zjedz coś")
+# else:
+#     print("OK")
+
+if bmi>=18.5 and bmi<25:
+    print("OK")
+elif bmi>=25:
     print("ogranicz kebaby")
     print("ogranicz monsterki")
+    if bmi>35:
+        print("Do lekarza")
 elif bmi<18.5:
     print("zjedz coś")
 else:
-    print("OK")
+    pass # celuloza w Pythonie
 
 #print(weight, height)
