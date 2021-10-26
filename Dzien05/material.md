@@ -22,6 +22,12 @@ Napisz program wypisujący na konsolę tabliczkę mnożenia dla liczb od 0 do 9 
 
 Napisz program zamieniający miejscami w zadanej liści liczb element największy z najmniejszym.
 
+[4, 1, 10, 12, 3, 20, 5] 
+
+operacje...
+
+[4, 20, 10, 12, 3, 1, 5]
+
 # Napisy
 
 ## Zadanie

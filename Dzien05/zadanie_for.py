@@ -5,9 +5,9 @@ for i in range(1, 10):
 print()
 print()
 for i in range(1, 10):
-    print(f"{i:7}", end="")
+    print(f"{i:7}", end="s")
     for j in range(1, 10):
-        print(f"{i * j:4}", end=" ")
+        print(f"{i * j:4}", end="s")
     print()
 
 x = 1.2345667
