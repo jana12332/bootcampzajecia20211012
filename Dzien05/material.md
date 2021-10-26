@@ -22,11 +22,20 @@ Napisz program wypisujący na konsolę tabliczkę mnożenia dla liczb od 0 do 9 
 
 Napisz program zamieniający miejscami w zadanej liści liczb element największy z najmniejszym.
 
-[4, 1, 10, 12, 3, 20, 5] 
+przyklad:
+
+lista = [4, 1, 10, 12, 3, 20, 5] 
 
 operacje...
 
-[4, 20, 10, 12, 3, 1, 5]
+lista == [4, 20, 10, 12, 3, 1, 5]
+
+przyklad 2
+
+lista = [1, 2, 3]
+...
+lista == [3, 2, 1]
+punkt wejscia to jakas lista
 
 # Napisy
 
@@ -45,8 +54,9 @@ Napisz program zliczający liczbę znaków w podanym przez użytkownika napisie 
 
 ## Zadanie
 
-Napisz program zliczający liczbę wystąpień każdeh z samogłosek (a, e, i, o, u, y) w podanym przez użytkownika napisie.
+Napisz program zliczający liczbę wystąpień każdej z samogłosek (a, e, i, o, u, y) w podanym przez użytkownika napisie.
 
+napis = input("Podaj napis: ")
 
 ## Zadanie 
 Napisz program wyliczający kwotę należną za zakupiony towar na podstawie podanej przez użytkownika wagi i nazwy produktu. Do przechowywania informacji o cenie za kilogram danego produktu użyj słownika. Wypisz wszystkie dostępne produkty w sklepie.
