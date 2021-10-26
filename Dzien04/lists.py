@@ -52,3 +52,33 @@ list2[0] = "XYZ"
 print(f"List1 = {list1}")
 print(f"List2 = {list2}")
 print(f"list1={id(list1)}, list2={id(list2)}")
+
+
+
+x = [1, 2, 3]
+z = x
+y = [4, 5, x]
+yy = y.copy()
+print(x)
+print(y)
+
+x.append(7)
+
+print(x)
+print(y)
+print(yy)
+
+import copy
+yy = copy.deepcopy(y)
+
+
+lista = [1, 2, 3]
+print(id(lista))
+lista.append(4)
+lista.pop()
+print(id(lista))
+
+krotka = (1, 2, 3)
+print(id(krotka))
+krotka = krotka + (1, )
+print(id(krotka))
