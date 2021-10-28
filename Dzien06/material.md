@@ -40,17 +40,39 @@ cena_za_kg = {
 "pietruszka": 2.34,
 }
 
-Witaj w Sklepie.
+    Witaj w Sklepie.
+    
+    Oferujemy:
+    marchew w cenie 1.22 za kg
+    pietruszka w cenie 2.34 za kg
+    
+    Co chcesz kupic?
+    marchew
+    
+    Ile chcesz kupic?
+    2
+    
+    Cena to:
+    2.44
 
-Oferujemy:
-marchew w cenie 1.22 za kg
-pietruszka w cenie 2.34 za kg
+# Zbior
 
-Co chcesz kupic?
-marchew
+set()
 
-Ile chcesz kupic?
+
+## zadanie
+
+Napisz program, ktory przyjmie od uzytkownika szereg liczb. I wypisze ile bylo unikalnych liczb
+Ile bylo liczb parzystych z zakresu 2 - 100
+
+np:
+1
 2
+1
+2
+102
+93
+k
 
-Cena to:
-2.44
+unikalnych liczb: 4
+parzystych unikalnych z zakresu 2-100: 1
