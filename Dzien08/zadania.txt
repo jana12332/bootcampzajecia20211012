@@ -1,0 +1,9 @@
+
+- Proszę napisać funkcję zamieniającą liczbę naturalną zapisaną cyframi arabskimi na liczbę rzymską.
+Np. 1969 zamieniamy na MCMLXIX
+W przypadku podania wartości mniejszej od 1 jako parametru funkcji należy zwrócić wartość None.
+Opis algorytmu na http://www.algorytm.org/algorytmy-arytmetyczne/zamiana-z-i-na-system-rzymski.html
+
+- Proszę napisać funkcję wyznaczającą datę Wielkanocy. Funkcja przyjmuje rok jako parametr,
+a zwraca datę jako string w formacie RRRR-MM-DD.
+Opis algorytmu na http://www.algorytm.org/przetwarzanie-dat/wyznaczanie-daty-wielkanocy-algortym-gaussa.html
